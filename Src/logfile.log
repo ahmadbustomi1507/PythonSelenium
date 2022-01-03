@@ -1,0 +1,5 @@
+2021-12-28 17:20:43,380 :INFO : test_1 :information message
+2021-12-28 17:20:43,380 :WARNING : test_1 :warning messge
+2021-12-28 17:20:43,380 :ERROR : test_1 :error message
+2021-12-28 17:20:43,381 :CRITICAL : test_1 :critical message
+2021-12-28 17:20:43,381 :INFO : test_1 :Testing info in test case
