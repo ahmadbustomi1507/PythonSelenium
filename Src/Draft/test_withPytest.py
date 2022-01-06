@@ -1,4 +1,4 @@
-import pytest
+qimport pytest
 from Src.BaseClass import BaseClass
 
 class TestExample1(BaseClass):
