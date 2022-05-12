@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 #please check your google chrome version, and uncomment one of these driver_path
 
 #If you are using Chrome version 97
-driver_path = "..\ChromeWebdriver\97.0.4692.71\chromedriver.exe"
+driver_path = "tools/ChromeWebdriver\97.0.4692.71\chromedriver.exe"
 
 # If you are using Chrome version 96
 # driver_path = "..\ChromeWebdriver\96.0.4664.45\chromedriver.exe"
