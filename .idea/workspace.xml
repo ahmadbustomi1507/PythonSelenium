@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30351957-b00b-4c8e-8c1f-1280959925d0" name="Default Changelist" comment="add an simple structure for web automation">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/emiten_details.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/login_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/watchlist_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/watchlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonSeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonSeleniumProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="30351957-b00b-4c8e-8c1f-1280959925d0" name="Default Changelist" comment="add draft automation for stokbit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page_factory/stokbit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/page_factory/stokbit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/steps.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

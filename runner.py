@@ -27,7 +27,7 @@ if __name__ == '__main__':
                         help='Basically the folder inside the test_suite_bdd, please choose one')
     parser.add_argument('--feature_name',type=str,required=False,
                         help='*.feature name inside the project name',default='.')
-    parser.add_argument('--unique',type=str,required=True,
+    parser.add_argument('--unique_name',type=str,required=True,
                         help='unique number for folder result naming')
     parser.add_argument('--behave_options', type=str, required=False,
                         help='some additional behave options')
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     tags_name               = args.tags
     project_name            = args.project_name
     feature_name            = args.feature_name
-    unique_name             = args.unique
+    unique_name             = args.unique_name
 
     #----------------------------------------------------------------------------------------
     print("Processing the args")
