@@ -1,0 +1,60 @@
+@functional
+Feature: emiten details # src/test_suite_bdd/stokbit_automation/emiten_details.feature:2
+
+  Scenario: login with correct account                       # src/test_suite_bdd/stokbit_automation/emiten_details.feature:3
+    Given User successfully navigate to the home page        # src/test_suite_bdd/stokbit_automation/steps/login_steps.py:7
+    When User click the sign in button                       # src/test_suite_bdd/stokbit_automation/steps/login_steps.py:12
+    And User fill in the email and password                  # None
+    Then User successfully login with avatar settings pop up # None
+    And redirect to the dashboard                            # None
+
+  Scenario: search the emiten                              # src/test_suite_bdd/stokbit_automation/emiten_details.feature:10
+    Given User access the search bar on to the top left    # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:1
+    When User fill in the emiten "POWR"                    # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:6
+    Then User will be navigated to the emiten details page # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:10
+
+  Scenario: Graph details                 # src/test_suite_bdd/stokbit_automation/emiten_details.feature:15
+    Given User in the emiten details page # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    Then The full company name exist      # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:18
+    And The property of the emiten exist  # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:22
+    And Buy Button exist                  # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:26
+    And Graph of the emiten exist         # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:30
+
+  Scenario: Stream details                                             # src/test_suite_bdd/stokbit_automation/emiten_details.feature:22
+    Given User in the emiten details page                              # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    When user choose the "Stream" details of the emiten                # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:34
+    Then User can check the order book in the right bottom of the page # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:38
+    And The latest post with tags "All" exist                          # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:42
+    And The latest post with latest post with tags "Ideas" exist       # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:46
+    And The latest post with latest post with tags "Reports" exist     # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:50
+    And The latest post with latest post with tags "Charts" exist      # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:54
+    And The latest post with latest post with tags "Predictions" exist # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:58
+    And The latest post with latest post with tags "Insiders" exist    # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:62
+
+  Scenario: News details                                               # src/test_suite_bdd/stokbit_automation/emiten_details.feature:33
+    Given User in the emiten details page                              # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    When user choose the "Stream" details of the emiten                # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:34
+    Then User can check the order book in the right bottom of the page # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:38
+    And The latest post with latest post with tags "News" exist        # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:66
+
+  Scenario: Key Stat details                                           # src/test_suite_bdd/stokbit_automation/emiten_details.feature:39
+    Given User in the emiten details page                              # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    When user choose the "Key Stats" details of the emiten             # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:70
+    Then User can check the order book in the right bottom of the page # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:38
+    And The key stat of the emiten exist                               # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:74
+
+  Scenario: Analyst details                              # src/test_suite_bdd/stokbit_automation/emiten_details.feature:45
+    Given User in the emiten details page                # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    When user choose the "Analyst" details of the emiten # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:78
+    Then the analyst ratings of the emiten exists        # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:82
+
+  Scenario: Financials details                              # src/test_suite_bdd/stokbit_automation/emiten_details.feature:50
+    Given User in the emiten details page                   # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    When user choose the "Financials" details of the emiten # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:86
+    Then the financial detail of the emiten exists          # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:90
+
+  Scenario: Fundachart details                              # src/test_suite_bdd/stokbit_automation/emiten_details.feature:55
+    Given User in the emiten details page                   # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:14
+    When user choose the "Fundachart" details of the emiten # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:94
+    Then the fundamental information of the emiten exists   # src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py:98
+

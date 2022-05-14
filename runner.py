@@ -1,21 +1,12 @@
+
+# TO DO : Fixing the allure report (somehow the formatter not found)
 import sys
 sys.path.append('.')
 import os
 import subprocess
 import argparse
-from datetime import datetime
 import pathlib
-import uuid
 import  time
-from src.tools import utility as ut
-import shutil
-
-# def get_unique_run_id():
-#     generated_uuid = uuid.uuid4()
-#     date_time      = datetime.now().strftime('%Y%m%d%H%M%S')
-#     unique_run_id =  "_{}_{}".format(unique_build_number,date_time)
-#     os.environ['UNIQUE_RUN_ID'] = unique_run_id
-#     return unique_run_id
 
 def get_work_directory():
     return pathlib.Path(__file__).parent.absolute()
@@ -83,9 +74,8 @@ if __name__ == '__main__':
     print(f"Execute the feature : {test_feature_name}")
     #----------------------------------------------------------------------------------------
 
-    command =   f'behave -f allure_behave.formatter:AllureFormatter -f pretty ' \
-                f'-o {log_dir} ' \
-                f'{test_feature_name} ' \
+    command =   f'behave -f pretty ' \
+                f'{test_feature_name}.feature ' \
                 f'--no-capture ' \
                 f'--tags {tags_name} '
 
@@ -94,25 +84,8 @@ if __name__ == '__main__':
         print(f"Running command: {command}")
         rs = subprocess.run(command, shell=True)
 
-        # TO DO :12-05-2022 (eksplisit wait)
+        # TO DO :12-05-2022 (explicit wait)
         time.sleep(5)
-
-        # Generate Report
-        print(f"Generate Report Summary to directory: {summary_dir}")
-        command = f'allure generate {log_dir} -o {summary_dir}'
-        print(f"Running command: {command}")
-        rs = subprocess.run(command, shell=True)
-
-        # TO DO :12-05-2022
-        time.sleep(5)
-
-        # Generate one html
-        print(f"Generate One Html Report to directory: {results_dir}")
-        html_single_summary = Ut.combine(src=summary_dir, dest=results_dir)
-        print(f'html_single_summary = {html_single_summary}')
-
-        # TO DO :12-05-2022
-        time.sleep(10)
 
     except Exception as err:
         raise Exception(f"Ada error di runner, harus di cek,{type(err)} ")
@@ -120,5 +93,3 @@ if __name__ == '__main__':
 
     finally:
         print(f"Delete the folder : {results_dir}")
-        shutil.rmtree(path=log_dir,ignore_errors=True)
-        shutil.rmtree(path=summary_dir,ignore_errors=True)

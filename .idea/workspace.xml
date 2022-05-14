@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30351957-b00b-4c8e-8c1f-1280959925d0" name="Default Changelist" comment="add an simple structure for web automation">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/emiten_details.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/emiten_details_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/login_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/watchlist_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/watchlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonSeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonSeleniumProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page_factory/stokbit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/page_factory/stokbit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_suite_bdd/stokbit_automation/steps/steps.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Freeze Requirements File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hidden</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Src/Draft/Test_1_CyberSmart.py" />
+        <option value="$PROJECT_DIR$/Src/Draft/test_withPytest.py" />
+        <option value="$PROJECT_DIR$/Src/1to50_clicker_quiz.py" />
+        <option value="$PROJECT_DIR$/Src/BDD_Approach.py" />
+        <option value="$PROJECT_DIR$/Src/BDD_Approach/features/myfeature.feature" />
+        <option value="$PROJECT_DIR$/Src/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="943" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectId" id="28yeC635IryGf9qLDpbdEGjmo1r" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PythonSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonSeleniumProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonSeleniumProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/PythonSeleniumProject/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\PythonSeleniumProject\src" />
+      <recent name="E:\Project\PythonSeleniumProject\src\tools\combine-allure-html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\PythonSeleniumProject" />
+      <recent name="E:\Project\PythonSeleniumProject\src" />
+      <recent name="E:\Project\PythonSeleniumProject\src\tools\ChromeWebdriver\101.0.4951.41" />
+      <recent name="E:\Project\PythonSeleniumProject\src\tools" />
+      <recent name="E:\Project\PythonSeleniumProject\Src\test_suite_draft" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.combine">
+    <configuration name="1to50_clicker_quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonSeleniumProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Project\PythonSeleniumProject\Src\test_suite_draft\1to50_clicker_quiz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Behave" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonSeleniumProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Project\PythonSeleniumProject\Env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Src/BDD_Approach" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Src/BDD_Approach/features" />
+      <option name="PARAMETERS" value="Env\Scripts\behave" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="combine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSeleniumProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tools/combine_html" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tools/combine_html/combine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonSeleniumProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Behave" />
+      <item itemvalue="Python.combine" />
+      <item itemvalue="Python.1to50_clicker_quiz" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.combine" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.1to50_clicker_quiz" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30351957-b00b-4c8e-8c1f-1280959925d0" name="Default Changelist" comment="" />
+      <created>1641464395071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641464395071</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add an automation for this site &quot;htts://zzzscore.com/1to50/en/&quot;">
+      <created>1641480918268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641480918268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add an automation for this site &quot;htts://zzzscore.com/1to50/en/&quot;">
+      <created>1641528745976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641528745977</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add an automation for this site &quot;htts://zzzscore.com/1to50/en/&quot;">
+      <created>1641528767764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641528767764</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add an automation for this site &quot;htts://zzzscore.com/1to50/en/&quot;">
+      <created>1641530320139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641530320139</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add an simple structure for web automation">
+      <created>1652359302840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652359302840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="943" height="1087" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31491712" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38155136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4077568" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914045" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28301886" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48532495" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32914045" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23977901" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38155136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4077568" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914045" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28301886" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34696016" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32914045" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add an automation for this site &quot;htts://zzzscore.com/1to50/en/&quot;" />
+    <MESSAGE value="add an simple structure for web automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add an simple structure for web automation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Draft/BaseClass.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="all_iframes[7].parent.application_cache" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>all_iframes[7].parent.application_cache</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Env/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="35" column="53" selection-start-line="32" selection-start-column="18" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Env/Lib/site-packages/selenium/webdriver/remote/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Env/Lib/site-packages/selenium/webdriver/common/desired_capabilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="67" selection-start-line="67" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="1248" column="8" selection-start-line="1248" selection-start-column="8" selection-end-line="1248" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Draft/BaseClass.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Ch63.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Ch67_chrome_ption.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/childWindow.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/First_testing.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Test_1_CyberSmart.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/test_withPytest.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Training_1.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Training_4.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Training_5_Handling_DynamicDropdowns.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Training_6_Handling_Checkbox_Dynamically_ch46.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Training_8_Synchronization_explicit_implicit_wait.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Training_7_Handling_JS_Alert_ch47.py" />
+    <entry file="file://$PROJECT_DIR$/Env/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="240" column="8" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Ch62.py" />
+    <entry file="file://$PROJECT_DIR$/Src/Draft/Ch65_executeJscript.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1270627689/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="922" column="4" selection-start-line="922" selection-start-column="4" selection-end-line="922" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/BDD_Approach/BDD_Approach.py" />
+    <entry file="file://$PROJECT_DIR$/Src/BDD_Approach/features/test.feature" />
+    <entry file="file://$PROJECT_DIR$/Src/test.py" />
+    <entry file="file://$PROJECT_DIR$/Src/1to50_clicker_quiz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDD_Approach/features/myfeature.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
